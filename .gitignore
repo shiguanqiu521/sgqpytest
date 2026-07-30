@@ -1,0 +1,24 @@
+# IDE配置目录
+.idea/
+
+# pytest缓存
+.pytest_cache/
+
+# Python虚拟环境（非常大，必须忽略）
+venv_sgqtest/
+
+# 测试报告，不用上传
+reports/
+
+# git自身目录（git不会上传自己，不用写，仅提醒）
+# .git/
+
+# Python编译缓存
+__pycache__/
+*.pyc
+*.py[cod]
+
+# 环境变量配置（存放账号、接口密钥，禁止上传）
+config/dev.env
+config/test.env
+config/prod.env
